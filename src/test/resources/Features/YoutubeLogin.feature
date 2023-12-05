@@ -10,3 +10,4 @@ Feature: Login
     Then User provide password
     And User click on next on password page
     Then User click on Not Now
+    Then User click on Now
