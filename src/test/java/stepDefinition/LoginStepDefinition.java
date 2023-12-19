@@ -2,10 +2,10 @@ package stepDefinition;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import pageObject.YoutubePage;
 
 public class LoginStepDefinition {
@@ -74,6 +74,12 @@ public class LoginStepDefinition {
 	@Then("User click on Not Now")
 	public void user_click_on_not_now() {
 	   y.user_click_on_not_now();
+	   }
+	   
+	@Then("User click on Now")
+	 public void user_click_on_now() {
+	       y.user_click_on_now();
+	   }
 	}
 
-}
+

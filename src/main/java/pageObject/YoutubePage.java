@@ -1,5 +1,6 @@
 package pageObject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -74,6 +75,11 @@ public class YoutubePage {
 	public void user_click_on_not_now() {
 	    
 	    driver.getTitle();
+	}
+	
+	
+	public void user_click_on_now() {
+	    driver.findElement(By.xpath("//input[@type='email']")).click();
 	}
 
 
